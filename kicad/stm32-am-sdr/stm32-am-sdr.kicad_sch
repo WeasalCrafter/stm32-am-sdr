@@ -1,178 +1,246 @@
-(kicad_pcb
-	(version 20260206)
-	(generator "pcbnew")
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
 	(generator_version "10.0")
-	(general
-		(thickness 1.6)
-		(legacy_teardrops no)
-	)
+	(uuid "dff3cfde-4775-47a0-871e-26e88704f259")
 	(paper "A4")
 	(title_block
 		(title "${MRC_TITLE}")
 		(date "${MRC_DATE}")
 		(rev "${MRC_REVISION}")
-		(company "BU Mars Rover Club Electrical Team")
 		(comment 1 "${MRC_DESC_2}")
 		(comment 2 "${MRC_DESC_1}")
 		(comment 3 "${MRC_CONTRIBUTORS}")
 		(comment 4 "${MRC_SUBSYSTEM}")
 	)
-	(layers
-		(0 "F.Cu" signal)
-		(4 "In1.Cu" signal)
-		(6 "In2.Cu" signal)
-		(2 "B.Cu" signal)
-		(9 "F.Adhes" user "F.Adhesive")
-		(11 "B.Adhes" user "B.Adhesive")
-		(13 "F.Paste" user)
-		(15 "B.Paste" user)
-		(5 "F.SilkS" user "F.Silkscreen")
-		(7 "B.SilkS" user "B.Silkscreen")
-		(1 "F.Mask" user)
-		(3 "B.Mask" user)
-		(17 "Dwgs.User" user "User.Drawings")
-		(19 "Cmts.User" user "User.Comments")
-		(21 "Eco1.User" user "User.Eco1")
-		(23 "Eco2.User" user "User.Eco2")
-		(25 "Edge.Cuts" user)
-		(27 "Margin" user)
-		(31 "F.CrtYd" user "F.Courtyard")
-		(29 "B.CrtYd" user "B.Courtyard")
-		(35 "F.Fab" user)
-		(33 "B.Fab" user)
-		(39 "User.1" user)
-		(41 "User.2" user)
-		(43 "User.3" user)
-		(45 "User.4" user)
-		(47 "User.5" user)
-		(49 "User.6" user)
-		(51 "User.7" user)
-		(53 "User.8" user)
-		(55 "User.9" user)
+	(lib_symbols)
+	(text "Si5351A I2C Programmable \nReference Clock Generator"
+		(exclude_from_sim no)
+		(at 43.434 50.546 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "82c2fcc0-b5f1-45d2-a0b3-63b9b37c3d0f")
 	)
-	(setup
-		(stackup
-			(layer "F.SilkS"
-				(type "Top Silk Screen")
-			)
-			(layer "F.Paste"
-				(type "Top Solder Paste")
-			)
-			(layer "F.Mask"
-				(type "Top Solder Mask")
-				(thickness 0.01)
-			)
-			(layer "F.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 1"
-				(type "prepreg")
-				(thickness 0.1)
-				(material "FR4")
-				(epsilon_r 4.5)
-				(loss_tangent 0.02)
-			)
-			(layer "In1.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 2"
-				(type "core")
-				(thickness 1.24)
-				(material "FR4")
-				(epsilon_r 4.5)
-				(loss_tangent 0.02)
-			)
-			(layer "In2.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 3"
-				(type "prepreg")
-				(thickness 0.1)
-				(material "FR4")
-				(epsilon_r 4.5)
-				(loss_tangent 0.02)
-			)
-			(layer "B.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "B.Mask"
-				(type "Bottom Solder Mask")
-				(thickness 0.01)
-			)
-			(layer "B.Paste"
-				(type "Bottom Solder Paste")
-			)
-			(layer "B.SilkS"
-				(type "Bottom Silk Screen")
-			)
-			(copper_finish "HAL lead-free")
-			(dielectric_constraints no)
+	(junction
+		(at 29.21 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b1e3bb42-9ab5-4d89-8300-dd9387123825")
+	)
+	(wire
+		(pts
+			(xy 26.67 30.48) (xy 29.21 30.48)
 		)
-		(pad_to_mask_clearance 0)
-		(allow_soldermask_bridges_in_footprints no)
-		(tenting
-			(front yes)
-			(back yes)
+		(stroke
+			(width 0)
+			(type default)
 		)
-		(covering
-			(front no)
-			(back no)
+		(uuid "25e5560f-676f-4f7d-a181-a0b5f9c537f9")
+	)
+	(wire
+		(pts
+			(xy 31.75 30.48) (xy 29.21 30.48)
 		)
-		(plugging
-			(front no)
-			(back no)
+		(stroke
+			(width 0)
+			(type default)
 		)
-		(capping no)
-		(filling no)
-		(zone_defaults)
-		(pcbplotparams
-			(layerselection 0x00000000_00000000_55555555_5755f5ff)
-			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
-			(disableapertmacros no)
-			(usegerberextensions no)
-			(usegerberattributes yes)
-			(usegerberadvancedattributes yes)
-			(creategerberjobfile yes)
-			(dashed_line_dash_ratio 12)
-			(dashed_line_gap_ratio 3)
-			(svgprecision 4)
-			(plotframeref no)
-			(mode 1)
-			(useauxorigin no)
-			(pdf_front_fp_property_popups yes)
-			(pdf_back_fp_property_popups yes)
-			(pdf_metadata yes)
-			(pdf_single_document no)
-			(dxfpolygonmode yes)
-			(dxfimperialunits yes)
-			(dxfusepcbnewfont yes)
-			(psnegative no)
-			(psa4output no)
-			(plot_black_and_white yes)
-			(sketchpadsonfab no)
-			(plotpadnumbers no)
-			(hidednponfab no)
-			(sketchdnponfab yes)
-			(crossoutdnponfab yes)
-			(subtractmaskfromsilk no)
-			(outputformat 1)
-			(mirror no)
-			(drillshape 1)
-			(scaleselection 1)
-			(outputdirectory "")
+		(uuid "464b3f22-b179-4359-a459-bd40863403e8")
+	)
+	(wire
+		(pts
+			(xy 29.21 30.48) (xy 29.21 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "498abdf3-7ea4-4d34-81e9-564e4b8deec6")
+	)
+	(wire
+		(pts
+			(xy 29.21 34.29) (xy 31.75 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bf63744-edda-4327-a5e8-ef5b589f10df")
+	)
+	(wire
+		(pts
+			(xy 54.61 30.48) (xy 52.07 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a92480f0-591e-4502-911e-fba271c012f5")
+	)
+	(wire
+		(pts
+			(xy 54.61 40.64) (xy 52.07 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c10c2790-3160-412e-b816-e6363836e9d3")
+	)
+	(wire
+		(pts
+			(xy 54.61 36.83) (xy 52.07 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2a4463d-92cb-423d-8b36-47bd303ad371")
+	)
+	(label "SDA"
+		(at 54.61 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3b95bedf-6cf9-4da7-b19e-52c2bec680f0")
+	)
+	(label "CLK_OUT"
+		(at 54.61 30.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "423a33c3-0f30-49e8-8025-9a26f9422487")
+	)
+	(label "3V3"
+		(at 26.67 30.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5ed1f149-4d59-43c1-a6e3-cca59180b060")
+	)
+	(label "SCL"
+		(at 54.61 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e96cc54a-c6a0-4217-a9e1-c0755f0bd93a")
+	)
+	(sheet
+		(at 31.75 27.94)
+		(size 20.32 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "d5c878b0-9b5c-4eb1-91e1-5d690b7c051a")
+		(property "Sheetname" "Reference Clock"
+			(at 31.75 27.2284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ref_clock.kicad_sch"
+			(at 31.75 43.7646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CLK_OUT" input
+			(at 52.07 30.48 0)
+			(uuid "7e35ee5d-4302-4274-bf32-e09209854d87")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCL" input
+			(at 52.07 40.64 0)
+			(uuid "e3b1f6ab-f69f-41db-966f-eea0496be0df")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VDD" input
+			(at 31.75 30.48 180)
+			(uuid "d6954b07-319a-49a4-a4e4-acc8d24d923d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VDDO" input
+			(at 31.75 34.29 180)
+			(uuid "0eeacc41-88d2-452d-9b1a-3d1acdef3c06")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA" input
+			(at 52.07 36.83 0)
+			(uuid "908ef1ce-2202-4fc5-b84a-6211bcb0f200")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "stm32-am-sdr"
+				(path "/dff3cfde-4775-47a0-871e-26e88704f259"
+					(page "2")
+				)
+			)
 		)
 	)
-	(property "MRC_CONTRIBUTORS" "logan fick")
-	(property "MRC_DATE" "9/1/2026")
-	(property "MRC_DESC_1" "line one")
-	(property "MRC_DESC_2" "line two")
-	(property "MRC_REVISION" "1.0")
-	(property "MRC_SUBSYSTEM" "Comms")
-	(property "MRC_TITLE" "Comms Example Board")
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
 	(embedded_fonts no)
 	(embedded_files
 		(file

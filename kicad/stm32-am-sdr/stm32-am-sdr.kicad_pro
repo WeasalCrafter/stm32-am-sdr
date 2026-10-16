@@ -178,6 +178,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 1,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -189,6 +190,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 1,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -200,6 +202,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 1,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -504,6 +507,7 @@
       "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
+      "same_local_global_power": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
@@ -523,7 +527,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "mrc_template.kicad_pro",
+    "filename": "stm32-am-sdr.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -551,8 +555,8 @@
     "meta": {
       "version": 5
     },
-    "net_colors": null,
-    "netclass_assignments": null,
+    "net_colors": {},
+    "netclass_assignments": {},
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -564,7 +568,7 @@
       "step": "",
       "vrml": ""
     },
-    "page_layout_descr_file": "kicad-embed://sheet.kicad_wks"
+    "page_layout_descr_file": ""
   },
   "schematic": {
     "annotate_start_num": 0,
@@ -702,35 +706,39 @@
     "meta": {
       "version": 1
     },
-    "page_layout_descr_file": "kicad-embed://sheet.kicad_wks",
+    "page_layout_descr_file": "",
     "plot_directory": "",
     "reuse_designators": true,
     "subpart_first_id": 65,
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "mrc_template.kicad_sch",
+        "filename": "stm32-am-sdr.kicad_sch",
         "name": "Root",
         "uuid": "dff3cfde-4775-47a0-871e-26e88704f259"
       }
     ],
-    "used_designators": "R1",
+    "used_designators": "#PWR1-6,C1-4,R1-2,U1,XTAL1,Y1",
     "variants": []
   },
   "sheets": [
     [
       "dff3cfde-4775-47a0-871e-26e88704f259",
       "Root"
+    ],
+    [
+      "d5c878b0-9b5c-4eb1-91e1-5d690b7c051a",
+      "Reference Clock"
     ]
   ],
   "text_variables": {
-    "MRC_CONTRIBUTORS": "logan fick",
-    "MRC_DATE": "9/1/2026",
-    "MRC_DESC_1": "line one",
-    "MRC_DESC_2": "line two",
+    "MRC_CONTRIBUTORS": "Logan Fick",
+    "MRC_DATE": "10/15/2026",
+    "MRC_DESC_1": "",
+    "MRC_DESC_2": "",
     "MRC_REVISION": "1.0",
-    "MRC_SUBSYSTEM": "Comms",
-    "MRC_TITLE": "Comms Example Board"
+    "MRC_SUBSYSTEM": "",
+    "MRC_TITLE": "STM32 AM SDR Receiver"
   },
   "tuning_profiles": {
     "meta": {
