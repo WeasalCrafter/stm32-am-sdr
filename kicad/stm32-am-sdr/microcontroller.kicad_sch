@@ -3776,6 +3776,16 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 46.99) (xy 67.31 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57bed5f4-20b4-4c5e-b85b-c0cf50237d9f")
+	)
+	(wire
+		(pts
 			(xy 201.93 44.45) (xy 201.93 39.37)
 		)
 		(stroke
@@ -4333,6 +4343,16 @@
 			(type default)
 		)
 		(uuid "b77fb646-231c-4306-9093-dd4fc404eb84")
+	)
+	(wire
+		(pts
+			(xy 69.85 44.45) (xy 67.31 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7ecaccb-213a-49b8-a109-3efa9e5da5b1")
 	)
 	(wire
 		(pts
@@ -5210,6 +5230,17 @@
 		)
 		(uuid "5a215090-e28d-48f0-8fb2-5dcd7638c721")
 	)
+	(hierarchical_label "I_OUT"
+		(shape input)
+		(at 69.85 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "70debd6d-0246-440d-925f-850deffff10a")
+	)
 	(hierarchical_label "3V3"
 		(shape input)
 		(at 48.26 17.78 0)
@@ -5242,6 +5273,17 @@
 			(justify left)
 		)
 		(uuid "bfa0a140-d982-47c4-a017-cfd74930f985")
+	)
+	(hierarchical_label "Q_OUT"
+		(shape input)
+		(at 69.85 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d9977dfd-58eb-4022-8622-b967b4c072f0")
 	)
 	(hierarchical_label "SCL"
 		(shape input)
@@ -6044,7 +6086,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5d2f382a-ac88-463c-b1a3-b2dcb7fbedfc")
 		(property "Reference" "U9"
 			(at 54.2133 125.73 0)
@@ -6057,8 +6098,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "STM32G431RBTx"
-			(at 54.2133 128.27 0)
+		(property "Value" "STM32G431RBT6"
+			(at 59.182 125.984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
