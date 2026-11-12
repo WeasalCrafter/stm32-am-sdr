@@ -2037,7 +2037,7 @@
 	)
 	(text "C = 1/(n * pi * f_receiver_bandwidth * R) = ~87nF -> 82nF\n(82 is a standard value)\n\n\nWhere n is one over the fraction of time each cap is \ncharging, 2 in our case of a double balanced detector\n\nR is the impedence (50 ohms)\n\nf_receiver_bandwidth is the target bandwidth (32kHz)"
 		(exclude_from_sim no)
-		(at 208.788 126.238 0)
+		(at 209.296 123.444 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7235,28 +7235,28 @@
 			)
 		)
 		(pin "1"
-			(uuid "afc0722b-7a42-4fe0-9237-de646d9a2aea")
+			(uuid "afc0722b-7a42-4fe0-9237-de646d9a2aeb")
 		)
 		(pin "2"
-			(uuid "f4f4a238-9d3b-4379-a680-4e4c855e1e97")
+			(uuid "f4f4a238-9d3b-4379-a680-4e4c855e1e98")
 		)
 		(pin "8"
-			(uuid "ecec6410-9f8b-409b-ba39-953bf3699c02")
+			(uuid "ecec6410-9f8b-409b-ba39-953bf3699c03")
 		)
 		(pin "5"
-			(uuid "49d2c1af-f942-4100-994f-c6bec5144bb9")
+			(uuid "49d2c1af-f942-4100-994f-c6bec5144bba")
 		)
 		(pin "6"
-			(uuid "e5a04821-311f-4625-b803-6d70a27209f7")
+			(uuid "e5a04821-311f-4625-b803-6d70a27209f8")
 		)
 		(pin "7"
-			(uuid "f1a12081-d3c4-4f42-bd0e-6fe8d62ea3d1")
+			(uuid "f1a12081-d3c4-4f42-bd0e-6fe8d62ea3d2")
 		)
 		(pin "4"
-			(uuid "3744681a-aea2-49f5-9427-b14c36bb0d71")
+			(uuid "3744681a-aea2-49f5-9427-b14c36bb0d72")
 		)
 		(pin "3"
-			(uuid "d5e29a15-83e0-49c9-908e-3e8d18d162ce")
+			(uuid "d5e29a15-83e0-49c9-908e-3e8d18d162cf")
 		)
 		(instances
 			(project "stm32-am-sdr"
@@ -7660,28 +7660,28 @@
 			)
 		)
 		(pin "1"
-			(uuid "afc0722b-7a42-4fe0-9237-de646d9a2aea")
+			(uuid "afc0722b-7a42-4fe0-9237-de646d9a2aec")
 		)
 		(pin "2"
-			(uuid "f4f4a238-9d3b-4379-a680-4e4c855e1e97")
+			(uuid "f4f4a238-9d3b-4379-a680-4e4c855e1e99")
 		)
 		(pin "8"
-			(uuid "ecec6410-9f8b-409b-ba39-953bf3699c02")
+			(uuid "ecec6410-9f8b-409b-ba39-953bf3699c04")
 		)
 		(pin "5"
-			(uuid "49d2c1af-f942-4100-994f-c6bec5144bb9")
+			(uuid "49d2c1af-f942-4100-994f-c6bec5144bbb")
 		)
 		(pin "6"
-			(uuid "e5a04821-311f-4625-b803-6d70a27209f7")
+			(uuid "e5a04821-311f-4625-b803-6d70a27209f9")
 		)
 		(pin "7"
-			(uuid "f1a12081-d3c4-4f42-bd0e-6fe8d62ea3d1")
+			(uuid "f1a12081-d3c4-4f42-bd0e-6fe8d62ea3d3")
 		)
 		(pin "4"
-			(uuid "3744681a-aea2-49f5-9427-b14c36bb0d71")
+			(uuid "3744681a-aea2-49f5-9427-b14c36bb0d73")
 		)
 		(pin "3"
-			(uuid "d5e29a15-83e0-49c9-908e-3e8d18d162ce")
+			(uuid "d5e29a15-83e0-49c9-908e-3e8d18d162d0")
 		)
 		(instances
 			(project "stm32-am-sdr"
