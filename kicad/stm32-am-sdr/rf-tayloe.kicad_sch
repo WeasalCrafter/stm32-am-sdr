@@ -823,6 +823,173 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:FerriteBead_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "FB"
+				(at 1.905 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "FerriteBead_Small"
+				(at 1.905 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Ferrite bead, small symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "L ferrite bead inductor filter"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Inductor_* L_* *Ferrite*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "FerriteBead_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.8288 0.2794) (xy -1.1176 1.4986) (xy 1.8288 -0.2032) (xy 1.1176 -1.4224) (xy -1.8288 0.2794)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.889) (xy 0 1.2954)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -0.7874)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "FerriteBead_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:L_Small"
 			(pin_numbers
 				(hide yes)
@@ -2000,7 +2167,7 @@
 		)
 	)
 	(rectangle
-		(start 204.47 39.37)
+		(start 201.93 39.37)
 		(end 308.61 83.185)
 		(stroke
 			(width 0.254)
@@ -2034,6 +2201,18 @@
 			(type none)
 		)
 		(uuid "73429466-9715-467d-9f22-8cf732213099")
+	)
+	(rectangle
+		(start 331.4203 54.61)
+		(end 359.41 76.835)
+		(stroke
+			(width 0.254)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "7e779527-3dbd-472a-bbfd-360cb32ac403")
 	)
 	(text "C = 1/(n * pi * f_receiver_bandwidth * R) = ~87nF -> 82nF\n(82 is a standard value)\n\n\nWhere n is one over the fraction of time each cap is \ncharging, 2 in our case of a double balanced detector\n\nR is the impedence (50 ohms)\n\nf_receiver_bandwidth is the target bandwidth (32kHz)"
 		(exclude_from_sim no)
@@ -2255,6 +2434,16 @@
 			)
 		)
 		(uuid "e7c2821d-303b-4a3b-b76c-5b1e4efe0528")
+	)
+	(text "RF-Ground must be connected \nto the main Ground"
+		(exclude_from_sim no)
+		(at 346.456 49.276 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e92df4d6-f272-489d-ba7c-8dea53c98548")
 	)
 	(text "(optional)"
 		(exclude_from_sim no)
@@ -2948,6 +3137,16 @@
 	)
 	(wire
 		(pts
+			(xy 337.82 67.31) (xy 337.82 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40dc19e8-de66-4c49-9e34-732c2a662413")
+	)
+	(wire
+		(pts
 			(xy 106.68 163.83) (xy 104.14 163.83)
 		)
 		(stroke
@@ -3095,6 +3294,16 @@
 			(type default)
 		)
 		(uuid "59bccbe9-1286-4058-972e-a2c04033b105")
+	)
+	(wire
+		(pts
+			(xy 337.82 64.77) (xy 342.9 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60df89e2-2642-43d4-a82b-f7ae25d22d3a")
 	)
 	(wire
 		(pts
@@ -3558,6 +3767,16 @@
 	)
 	(wire
 		(pts
+			(xy 347.98 64.77) (xy 353.06 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1f57669-dae1-434a-9e0a-eda9c3c57b2f")
+	)
+	(wire
+		(pts
 			(xy 247.65 57.15) (xy 238.76 57.15)
 		)
 		(stroke
@@ -3595,6 +3814,16 @@
 			(type default)
 		)
 		(uuid "b43694cd-e4ca-4f02-aba9-950923cfef12")
+	)
+	(wire
+		(pts
+			(xy 353.06 64.77) (xy 353.06 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4fd19cf-f375-44ed-a77f-51fb89ba50ac")
 	)
 	(wire
 		(pts
@@ -4618,14 +4847,15 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 90.17 83.82 0)
+		(property "Value" "RF-GND"
+			(at 92.71 80.0099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -4987,6 +5217,86 @@
 			(project "stm32-am-sdr"
 				(path "/dff3cfde-4775-47a0-871e-26e88704f259/36127a56-57d9-470b-8912-2a150696854d"
 					(reference "C28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:FerriteBead_Small")
+		(at 345.44 64.77 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "21b71ed0-2119-4524-bdfe-84bd803be2e5")
+		(property "Reference" "FB2"
+			(at 345.4019 58.42 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FerriteBead_Small"
+			(at 345.4019 60.96 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 345.44 66.548 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 345.44 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Ferrite bead, small symbol"
+			(at 345.44 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ad4ae1cf-de1e-4b2e-96da-65e264aa8d2c")
+		)
+		(pin "1"
+			(uuid "0a9fd1df-99af-4e42-b547-1e665cab4284")
+		)
+		(instances
+			(project "stm32-am-sdr"
+				(path "/dff3cfde-4775-47a0-871e-26e88704f259/36127a56-57d9-470b-8912-2a150696854d"
+					(reference "FB2")
 					(unit 1)
 				)
 			)
@@ -5628,6 +5938,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 337.82 67.31 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4b84447a-611f-45b8-8e8d-878603343ba4")
+		(property "Reference" "#PWR044"
+			(at 337.82 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RF-GND"
+			(at 337.82 72.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 337.82 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 337.82 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 337.82 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8be63e0c-6f91-4ad0-bfc2-6307dcd4d80c")
+		)
+		(instances
+			(project "stm32-am-sdr"
+				(path "/dff3cfde-4775-47a0-871e-26e88704f259/36127a56-57d9-470b-8912-2a150696854d"
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 325.12 185.42 90)
 		(mirror x)
@@ -6229,7 +6617,7 @@
 				)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "RF-GND"
 			(at 208.28 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8187,7 +8575,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "cccea51b-1386-4f9b-8396-04ab79cf12c6")
 		(property "Reference" "R18"
 			(at 173.99 74.93 90)
@@ -8695,6 +9083,84 @@
 			(project "stm32-am-sdr"
 				(path "/dff3cfde-4775-47a0-871e-26e88704f259/36127a56-57d9-470b-8912-2a150696854d"
 					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 353.06 67.31 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e8a68f54-8ae5-422d-ba8a-f21902776018")
+		(property "Reference" "#PWR048"
+			(at 353.06 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 353.06 72.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 353.06 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 353.06 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 353.06 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ad56e908-706f-45e7-9aad-62743b15bddd")
+		)
+		(instances
+			(project "stm32-am-sdr"
+				(path "/dff3cfde-4775-47a0-871e-26e88704f259/36127a56-57d9-470b-8912-2a150696854d"
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
