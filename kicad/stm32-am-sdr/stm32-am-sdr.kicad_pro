@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 1.27
+          "drill": 2.7,
+          "height": 4.1,
+          "width": 4.1
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -613,7 +613,7 @@
           "group_by": false,
           "label": "JLCPCB PART #",
           "name": "JLCPCB PART #",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -668,6 +668,12 @@
           "label": "Description",
           "name": "Description",
           "show": false
+        },
+        {
+          "group_by": true,
+          "label": "digikey_id",
+          "name": "digikey_id",
+          "show": true
         }
       ],
       "filter_string": "",
@@ -718,7 +724,7 @@
         "uuid": "dff3cfde-4775-47a0-871e-26e88704f259"
       }
     ],
-    "used_designators": "#PWR1-6,C1-4,R1-2,U1,XTAL1,Y1",
+    "used_designators": "#PWR1-37,AE1,C1-60,D1-3,F1,FB1,H1,J1-3,L1-22,Q1-2,R1-12,SW1-2,U1-10,XTAL1-2,Y1-2",
     "variants": []
   },
   "sheets": [
@@ -729,6 +735,22 @@
     [
       "d5c878b0-9b5c-4eb1-91e1-5d690b7c051a",
       "Reference Clock"
+    ],
+    [
+      "590ef362-0c29-431b-96d7-c0aea18ad095",
+      "STM32 Microcontroller"
+    ],
+    [
+      "332beaf5-88a7-42ae-8f75-621e2858fa24",
+      "Power and USB"
+    ],
+    [
+      "36127a56-57d9-470b-8912-2a150696854d",
+      "RF Input and Tayloe Detector"
+    ],
+    [
+      "3c5d941c-442f-4494-abfb-5b66caad44f3",
+      "Bandpass Filter Selector"
     ]
   ],
   "text_variables": {
