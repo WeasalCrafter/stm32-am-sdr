@@ -6479,6 +6479,17 @@
 				)
 			)
 		)
+		(property "digikey_id" "31-PI3B3253QEX-2017TR-ND"
+			(at 53.34 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "41b95225-9821-41c4-916a-4f4fc69955c5")
 		)

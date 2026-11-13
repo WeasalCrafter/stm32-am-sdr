@@ -3517,6 +3517,17 @@
 				)
 			)
 		)
+		(property "digikey_id" "296-35282-2-ND"
+			(at 153.67 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a58c7144-73f9-4a67-9de1-d540e3eb2ba7")
 		)

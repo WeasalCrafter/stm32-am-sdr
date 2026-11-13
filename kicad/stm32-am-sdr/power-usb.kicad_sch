@@ -5510,6 +5510,17 @@
 				)
 			)
 		)
+		(property "digikey_id" "497-5026-2-ND"
+			(at 168.91 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "f48bedd4-2a3b-4462-8163-badee2f54027")
 		)
@@ -5955,6 +5966,17 @@
 				)
 			)
 		)
+		(property "digikey_id" "296-TPS7A2033PDBVRTR-ND"
+			(at 52.07 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "7fbe94df-2a9c-4844-998d-5d0dea16ca3a")
 		)
@@ -6368,6 +6390,17 @@
 			)
 		)
 		(property "Description" "300 mA Low Dropout Voltage Regulator, Fixed Output, 1.6..6.0Vin, Low-Noise (7μV RMS), 6.5μA IQ LDO, SOT-23"
+			(at 53.34 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "digikey_id" "296-TPS7A2033PDBVRTR-ND"
 			(at 53.34 57.15 0)
 			(hide yes)
 			(show_name no)

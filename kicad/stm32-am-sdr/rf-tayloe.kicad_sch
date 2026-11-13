@@ -6434,7 +6434,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/623012fc.pdf"
 			(at 335.28 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -6538,6 +6538,17 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "digikey_id" "LT6231CS8#TRPBFTR-ND"
+			(at 335.28 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -7966,7 +7977,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/623012fc.pdf"
 			(at 279.4 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -8070,6 +8081,17 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "digikey_id" "LT6231CS8#TRPBFTR-ND"
+			(at 279.4 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -8391,7 +8413,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/623012fc.pdf"
 			(at 335.28 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -8495,6 +8517,17 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "digikey_id" "LT6231CS8#TRPBFTR-ND"
+			(at 335.28 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -9396,6 +9429,17 @@
 				)
 			)
 		)
+		(property "digikey_id" "31-PI3B3253QEX-2017TR-ND"
+			(at 81.28 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "0ba2ffb4-53e5-4822-b2f0-6fa75b473137")
 		)
@@ -9827,6 +9871,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 219.71 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "digikey_id" "3157-ADTT4-1+TR-ND"
 			(at 219.71 55.88 0)
 			(hide yes)
 			(show_name no)

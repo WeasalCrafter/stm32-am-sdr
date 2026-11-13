@@ -8410,7 +8410,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/PEC11R.pdf"
 			(at 323.85 63.246 0)
 			(hide yes)
 			(show_name no)
@@ -8422,6 +8422,17 @@
 			)
 		)
 		(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch"
+			(at 323.85 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "digikey_id" "PEC11R-4015F-S0024-ND"
 			(at 323.85 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -9180,6 +9191,17 @@
 				)
 			)
 		)
+		(property "digikey_id" "497-19471-ND"
+			(at 80.01 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "59"
 			(uuid "d6d5afd2-fa70-4ee6-9624-5cffd2524095")
 		)
@@ -9598,6 +9620,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 157.48 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "digikey_id" "FL2400022TR-ND"
 			(at 157.48 187.96 0)
 			(hide yes)
 			(show_name no)
