@@ -5460,7 +5460,7 @@
 				)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "100pF"
 			(at 340.36 49.53 90)
 			(show_name no)
 			(do_not_autoplace no)
