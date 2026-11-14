@@ -2417,7 +2417,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 157.48 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -2473,6 +2473,17 @@
 			)
 		)
 		(property "KLC_S6.2" ""
+			(at 157.48 66.04 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "digikey_id" "RMCF0603FT22R0CT-ND"
 			(at 157.48 66.04 90)
 			(hide yes)
 			(show_name no)
@@ -2887,7 +2898,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
 			(at 116.84 127 0)
 			(hide yes)
 			(show_name no)

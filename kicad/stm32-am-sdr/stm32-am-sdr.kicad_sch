@@ -1114,7 +1114,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "03b44673-a20a-496c-8875-753be104cc3e")
 		(property "Reference" "TP5"
@@ -1226,7 +1226,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "0f8c6b5c-263d-44b9-913d-0b66162f545b")
 		(property "Reference" "TP10"
 			(at 235.204 74.93 90)
@@ -1337,7 +1337,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "11a8e7c5-397b-4e56-ba4d-ce5b03d1ab2f")
 		(property "Reference" "TP2"
@@ -1449,7 +1449,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "1fecb291-97d0-4dc4-8e82-c186428f32d0")
 		(property "Reference" "TP3"
@@ -1561,7 +1561,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "38d47d16-c6f0-4f27-938d-8b4c7e75affe")
 		(property "Reference" "TP7"
@@ -1673,7 +1673,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "39312ed0-1d4a-4c73-8fb3-ccd45b1cf02c")
 		(property "Reference" "TP9"
@@ -1941,7 +1941,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "9bd98452-6c23-460d-b1f0-6966094f59c2")
 		(property "Reference" "TP1"
 			(at 235.204 62.23 90)
@@ -2130,7 +2130,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "e84059d1-9904-4505-9a5e-c65cdf9da4a7")
 		(property "Reference" "TP4"
@@ -2320,7 +2320,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "f00990d7-58de-42bf-8326-cf094cceca4c")
 		(property "Reference" "TP6"
@@ -2432,7 +2432,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "f2db5138-1ccc-43fc-add1-74e4eed9b137")
 		(property "Reference" "TP8"

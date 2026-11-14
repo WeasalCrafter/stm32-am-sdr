@@ -5048,7 +5048,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "0690f9bd-2d6f-4c51-94bd-f4e04f0a0956")
 		(property "Reference" "TP14"
@@ -5996,7 +5996,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 335.28 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -6052,6 +6052,17 @@
 			)
 		)
 		(property "KLC_S6.2" ""
+			(at 335.28 173.99 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "digikey_id" "RG16P4.99KBCT-ND"
 			(at 335.28 173.99 90)
 			(hide yes)
 			(show_name no)
@@ -6108,7 +6119,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 317.5 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -6174,6 +6185,17 @@
 				)
 			)
 		)
+		(property "digikey_id" "RG16P100BCT-ND"
+			(at 317.5 139.7 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6c85aaf2-cbd8-4d27-8554-6bdb1f58d916")
 		)
@@ -6198,7 +6220,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "395efa6e-c4f4-473c-8036-76c9435804ba")
 		(property "Reference" "TP11"
@@ -6683,7 +6705,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 317.5 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -6739,6 +6761,17 @@
 			)
 		)
 		(property "KLC_S6.2" ""
+			(at 317.5 184.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "digikey_id" "RG16P100BCT-ND"
 			(at 317.5 184.15 90)
 			(hide yes)
 			(show_name no)
@@ -6989,7 +7022,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 317.5 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -7045,6 +7078,17 @@
 			)
 		)
 		(property "KLC_S6.2" ""
+			(at 317.5 179.07 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "digikey_id" "RG16P100BCT-ND"
 			(at 317.5 179.07 90)
 			(hide yes)
 			(show_name no)
@@ -7213,7 +7257,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 351.79 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -7269,6 +7313,17 @@
 			)
 		)
 		(property "KLC_S6.2" ""
+			(at 351.79 181.61 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "digikey_id" "RG16P100BCT-ND"
 			(at 351.79 181.61 90)
 			(hide yes)
 			(show_name no)
@@ -7560,7 +7615,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 120.65 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -7616,6 +7671,17 @@
 			)
 		)
 		(property "KLC_S6.2" ""
+			(at 120.65 62.23 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "digikey_id" "A129510CT-ND"
 			(at 120.65 62.23 90)
 			(hide yes)
 			(show_name no)
@@ -7958,7 +8024,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "8e7273f2-4014-4daa-a161-cc8ef50d2e6f")
 		(property "Reference" "TP13"
@@ -9661,7 +9727,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "c1adfd43-651d-43fb-aad2-eb06567109d5")
 		(property "Reference" "TP12"
@@ -10025,7 +10091,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 351.79 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -10081,6 +10147,17 @@
 			)
 		)
 		(property "KLC_S6.2" ""
+			(at 351.79 142.24 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "digikey_id" "RG16P100BCT-ND"
 			(at 351.79 142.24 90)
 			(hide yes)
 			(show_name no)
@@ -10137,7 +10214,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 166.37 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -10193,6 +10270,17 @@
 			)
 		)
 		(property "KLC_S6.2" ""
+			(at 166.37 67.31 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "digikey_id" "4713-CAS06F0000CT-ND"
 			(at 166.37 67.31 90)
 			(hide yes)
 			(show_name no)
@@ -10250,7 +10338,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 133.35 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -10306,6 +10394,17 @@
 			)
 		)
 		(property "KLC_S6.2" ""
+			(at 133.35 62.23 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "digikey_id" "A129510CT-ND"
 			(at 133.35 62.23 90)
 			(hide yes)
 			(show_name no)
@@ -11141,7 +11240,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 99.06 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -11197,6 +11296,17 @@
 			)
 		)
 		(property "KLC_S6.2" ""
+			(at 99.06 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "digikey_id" "541-10.0KHCT-ND"
 			(at 99.06 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -11367,7 +11477,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 317.5 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -11423,6 +11533,17 @@
 			)
 		)
 		(property "KLC_S6.2" ""
+			(at 317.5 144.78 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "digikey_id" "RG16P100BCT-ND"
 			(at 317.5 144.78 90)
 			(hide yes)
 			(show_name no)
@@ -11479,7 +11600,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 335.28 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -11535,6 +11656,17 @@
 			)
 		)
 		(property "KLC_S6.2" ""
+			(at 335.28 134.62 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "digikey_id" "RG16P4.99KBCT-ND"
 			(at 335.28 134.62 90)
 			(hide yes)
 			(show_name no)

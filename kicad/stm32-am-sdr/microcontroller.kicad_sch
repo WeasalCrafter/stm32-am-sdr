@@ -7652,6 +7652,17 @@
 				)
 			)
 		)
+		(property "digikey_id" ""
+			(at 197.485 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "75b7f840-4c1c-40d0-83cd-1cfc46c308fa")
 		)
@@ -7804,7 +7815,7 @@
 				)
 			)
 		)
-		(property "Value" "2.2k"
+		(property "Value" "2.2K"
 			(at 85.598 175.768 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7814,7 +7825,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 88.9 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -7858,7 +7869,7 @@
 				)
 			)
 		)
-		(property "digikey_id" ""
+		(property "digikey_id" "A129692CT-ND"
 			(at 88.9 177.8 90)
 			(hide yes)
 			(show_name no)
@@ -8930,7 +8941,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 358.14 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -8986,6 +8997,17 @@
 			)
 		)
 		(property "KLC_S6.2" ""
+			(at 358.14 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "digikey_id" "RMCF0603FT150RCT-ND"
 			(at 358.14 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -9302,7 +9324,7 @@
 				)
 			)
 		)
-		(property "Value" "2.2k"
+		(property "Value" "2.2K"
 			(at 85.598 184.912 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9312,7 +9334,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 88.9 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -9356,7 +9378,7 @@
 				)
 			)
 		)
-		(property "digikey_id" ""
+		(property "digikey_id" "A129692CT-ND"
 			(at 88.9 182.88 90)
 			(hide yes)
 			(show_name no)
@@ -10793,7 +10815,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 373.38 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -10849,6 +10871,17 @@
 			)
 		)
 		(property "KLC_S6.2" ""
+			(at 373.38 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "digikey_id" "RMCF0603FT150RCT-ND"
 			(at 373.38 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -12071,7 +12104,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 259.08 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -12127,6 +12160,17 @@
 			)
 		)
 		(property "KLC_S6.2" ""
+			(at 259.08 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "digikey_id" "541-10.0KHCT-ND"
 			(at 259.08 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -12681,7 +12725,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 267.97 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -12737,6 +12781,17 @@
 			)
 		)
 		(property "KLC_S6.2" ""
+			(at 267.97 58.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "digikey_id" "541-10.0KHCT-ND"
 			(at 267.97 58.42 90)
 			(hide yes)
 			(show_name no)
@@ -13921,6 +13976,17 @@
 			)
 		)
 		(property "KLC_S6.2" ""
+			(at 156.21 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "digikey_id" ""
 			(at 156.21 60.96 0)
 			(hide yes)
 			(show_name no)
