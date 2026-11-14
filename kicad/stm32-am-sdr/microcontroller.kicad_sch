@@ -4330,7 +4330,7 @@
 	)
 	(text "VDDA Analog Suply Voltage\nDecoupling Capacitors"
 		(exclude_from_sim no)
-		(at 194.31 78.232 0)
+		(at 197.866 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4445,6 +4445,12 @@
 		(uuid "4483f4b0-451f-459a-b1fb-0210385eb66a")
 	)
 	(junction
+		(at 197.485 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "49648e87-6161-4e55-a431-ae9f25a260fd")
+	)
+	(junction
 		(at 151.13 187.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4475,28 +4481,22 @@
 		(uuid "64d0262c-c20e-41a1-85b3-2691d6498c7f")
 	)
 	(junction
-		(at 194.31 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "667e8ec1-9515-425f-a971-0e4a344da195")
-	)
-	(junction
 		(at 82.55 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "66f3f5e3-bab7-44e9-9d82-a9bedd44082e")
 	)
 	(junction
+		(at 197.485 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "68caa67b-007c-43f0-a56c-5d5353868dd2")
+	)
+	(junction
 		(at 204.47 179.07)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7b61eb5d-91b7-4e65-b4db-385274fe88cd")
-	)
-	(junction
-		(at 194.31 64.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7cc3cc96-3a22-4b54-8949-0d8010be6556")
 	)
 	(junction
 		(at 260.35 176.53)
@@ -4662,7 +4662,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 68.58) (xy 194.31 64.77)
+			(xy 197.485 68.58) (xy 197.485 64.77)
 		)
 		(stroke
 			(width 0)
@@ -4679,6 +4679,16 @@
 			(type default)
 		)
 		(uuid "02d166b7-05c8-4f75-970a-780236172aa1")
+	)
+	(wire
+		(pts
+			(xy 206.375 63.5) (xy 206.375 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "053d4394-a6be-44ed-b067-f7304b617221")
 	)
 	(wire
 		(pts
@@ -4862,7 +4872,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 57.15) (xy 190.5 58.42)
+			(xy 197.485 57.15) (xy 197.485 58.42)
 		)
 		(stroke
 			(width 0)
@@ -4872,7 +4882,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 53.34) (xy 194.31 57.15)
+			(xy 197.485 53.34) (xy 197.485 57.15)
 		)
 		(stroke
 			(width 0)
@@ -4892,7 +4902,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 64.77) (xy 190.5 63.5)
+			(xy 197.485 64.77) (xy 197.485 63.5)
 		)
 		(stroke
 			(width 0)
@@ -5069,16 +5079,6 @@
 			(type default)
 		)
 		(uuid "26481c15-d573-4f81-88b5-92678c9b31aa")
-	)
-	(wire
-		(pts
-			(xy 194.31 57.15) (xy 198.12 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2677d41e-89d3-46c5-bdd4-0493a705ebb0")
 	)
 	(wire
 		(pts
@@ -5272,6 +5272,16 @@
 	)
 	(wire
 		(pts
+			(xy 197.485 57.15) (xy 188.595 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e7f1c45-52d4-408f-b64b-668033180a45")
+	)
+	(wire
+		(pts
 			(xy 259.08 119.38) (xy 259.08 123.19)
 		)
 		(stroke
@@ -5279,16 +5289,6 @@
 			(type default)
 		)
 		(uuid "42d6cdd6-1815-4c74-9506-c9eb2302c1d4")
-	)
-	(wire
-		(pts
-			(xy 194.31 64.77) (xy 198.12 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43807974-eeb1-4418-9cdb-a4c34a6abc4f")
 	)
 	(wire
 		(pts
@@ -5372,7 +5372,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 64.77) (xy 198.12 63.5)
+			(xy 188.595 64.77) (xy 188.595 63.5)
 		)
 		(stroke
 			(width 0)
@@ -5862,6 +5862,16 @@
 	)
 	(wire
 		(pts
+			(xy 206.375 58.42) (xy 206.375 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85f32067-e5f1-43e0-ac57-5084c0f4a045")
+	)
+	(wire
+		(pts
 			(xy 373.38 100.33) (xy 373.38 97.79)
 		)
 		(stroke
@@ -6232,6 +6242,16 @@
 	)
 	(wire
 		(pts
+			(xy 206.375 57.15) (xy 197.485 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b74dd304-66f2-4a27-b6e5-9fd256302ea2")
+	)
+	(wire
+		(pts
 			(xy 260.35 184.15) (xy 260.35 186.69)
 		)
 		(stroke
@@ -6269,6 +6289,16 @@
 			(type default)
 		)
 		(uuid "b8956724-6c74-4407-8576-463ac0d7debb")
+	)
+	(wire
+		(pts
+			(xy 206.375 64.77) (xy 197.485 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8d646db-099b-46b8-8390-13c9f3de4015")
 	)
 	(wire
 		(pts
@@ -6472,7 +6502,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 57.15) (xy 198.12 58.42)
+			(xy 188.595 57.15) (xy 188.595 58.42)
 		)
 		(stroke
 			(width 0)
@@ -6642,16 +6672,6 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 57.15) (xy 194.31 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9df0d08-24fb-41af-84f8-df5231d7332a")
-	)
-	(wire
-		(pts
 			(xy 194.31 144.78) (xy 194.31 140.97)
 		)
 		(stroke
@@ -6682,7 +6702,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 64.77) (xy 194.31 64.77)
+			(xy 197.485 64.77) (xy 188.595 64.77)
 		)
 		(stroke
 			(width 0)
@@ -7535,7 +7555,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 190.5 60.96 0)
+		(at 197.485 60.96 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7545,7 +7565,7 @@
 		(dnp no)
 		(uuid "01c69b68-dc07-4cb2-a211-8a67af6b5e6b")
 		(property "Reference" "C7"
-			(at 187.198 59.69 0)
+			(at 195.453 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7556,7 +7576,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 187.198 62.23 0)
+			(at 195.453 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7567,7 +7587,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 190.5 60.96 0)
+			(at 197.485 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7578,7 +7598,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 60.96 0)
+			(at 197.485 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7589,7 +7609,40 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 190.5 71.12 0)
+			(at 197.485 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.1" ""
+			(at 197.485 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 197.485 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S6.2" ""
+			(at 197.485 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7672,6 +7725,39 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 260.35 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.1" ""
+			(at 260.35 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 260.35 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S6.2" ""
+			(at 260.35 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7783,6 +7869,39 @@
 				)
 			)
 		)
+		(property "KLC_S3.1" ""
+			(at 88.9 177.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 88.9 177.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S6.2" ""
+			(at 88.9 177.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0a548fe5-ff82-4080-b062-784c9c491e41")
 		)
@@ -7832,7 +7951,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H4.3mm"
 			(at 264.16 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -7843,7 +7962,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3f.pdf"
 			(at 264.16 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -7855,6 +7974,50 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 264.16 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.1" ""
+			(at 264.16 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 264.16 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S6.2" ""
+			(at 264.16 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "digikey_id" "SW400-ND"
 			(at 264.16 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -7992,7 +8155,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 373.38 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -8003,7 +8166,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/641/LTST-C193TBKT-5A.pdf"
 			(at 373.38 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -8027,6 +8190,50 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 373.38 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.1" ""
+			(at 373.38 111.76 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 373.38 111.76 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S6.2" ""
+			(at 373.38 111.76 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "digikey_id" "160-1827-2-ND"
+			(at 373.38 111.76 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8187,6 +8394,39 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 161.29 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.1" ""
+			(at 161.29 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 161.29 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S6.2" ""
+			(at 161.29 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8399,7 +8639,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm_CircularMountingHoles"
 			(at 320.04 65.786 0)
 			(hide yes)
 			(show_name no)
@@ -8433,6 +8673,39 @@
 			)
 		)
 		(property "digikey_id" "PEC11R-4015F-S0024-ND"
+			(at 323.85 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.1" ""
+			(at 323.85 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 323.85 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S6.2" ""
 			(at 323.85 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -8690,6 +8963,39 @@
 				)
 			)
 		)
+		(property "KLC_S3.1" ""
+			(at 358.14 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 358.14 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S6.2" ""
+			(at 358.14 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "389a61d9-2718-4021-9608-aa614540dd32")
 		)
@@ -8840,6 +9146,39 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 204.47 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.1" ""
+			(at 204.47 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 204.47 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S6.2" ""
+			(at 204.47 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9028,6 +9367,39 @@
 				)
 			)
 		)
+		(property "KLC_S3.1" ""
+			(at 88.9 182.88 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 88.9 182.88 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S6.2" ""
+			(at 88.9 182.88 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "be90dce5-181f-4855-a5d3-404fa34847ed")
 		)
@@ -9100,6 +9472,39 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 151.13 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.1" ""
+			(at 151.13 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 151.13 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S6.2" ""
+			(at 151.13 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9192,6 +9597,39 @@
 			)
 		)
 		(property "digikey_id" "497-19471-ND"
+			(at 80.01 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.1" ""
+			(at 80.01 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 80.01 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S6.2" ""
 			(at 80.01 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -9548,6 +9986,39 @@
 				)
 			)
 		)
+		(property "KLC_S3.1" ""
+			(at 198.12 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 198.12 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S6.2" ""
+			(at 198.12 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "66e9cfa0-d7ea-48ca-ac2d-42203ae2fbe9")
 		)
@@ -9595,7 +10066,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
 			(at 157.48 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -9631,6 +10102,39 @@
 			)
 		)
 		(property "digikey_id" "FL2400022TR-ND"
+			(at 157.48 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.1" ""
+			(at 157.48 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 157.48 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S6.2" ""
 			(at 157.48 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -9694,7 +10198,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH-12mm"
 			(at 322.58 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -9705,7 +10209,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3f.pdf"
 			(at 322.58 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -9717,6 +10221,50 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 322.58 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.1" ""
+			(at 322.58 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 322.58 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S6.2" ""
+			(at 322.58 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "digikey_id" "SW411-ND"
 			(at 322.58 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -9978,7 +10526,8 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 194.31 53.34 0)
+		(at 197.485 53.34 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9989,7 +10538,7 @@
 		(fields_autoplaced yes)
 		(uuid "670db195-7683-4b06-9294-e4536c71e5a6")
 		(property "Reference" "#PWR057"
-			(at 194.31 57.15 0)
+			(at 197.485 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10000,7 +10549,7 @@
 			)
 		)
 		(property "Value" "+3V3A"
-			(at 194.31 48.26 0)
+			(at 197.485 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10010,7 +10559,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 194.31 53.34 0)
+			(at 197.485 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10021,7 +10570,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 194.31 53.34 0)
+			(at 197.485 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10032,7 +10581,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 194.31 53.34 0)
+			(at 197.485 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10277,6 +10826,39 @@
 				)
 			)
 		)
+		(property "KLC_S3.1" ""
+			(at 373.38 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 373.38 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S6.2" ""
+			(at 373.38 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4bd2bc47-8013-4e5f-95e5-c43702ecc4d9")
 		)
@@ -10349,6 +10931,39 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 190.5 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.1" ""
+			(at 190.5 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 190.5 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S6.2" ""
+			(at 190.5 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10531,7 +11146,8 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 194.31 68.58 0)
+		(at 197.485 68.58 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10542,7 +11158,7 @@
 		(fields_autoplaced yes)
 		(uuid "8138a575-7642-4c23-8bad-99a1f4e6a9c5")
 		(property "Reference" "#PWR089"
-			(at 194.31 74.93 0)
+			(at 197.485 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10553,7 +11169,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 194.31 73.66 0)
+			(at 197.485 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10563,7 +11179,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 194.31 68.58 0)
+			(at 197.485 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10574,7 +11190,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 194.31 68.58 0)
+			(at 197.485 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10585,7 +11201,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 194.31 68.58 0)
+			(at 197.485 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10664,6 +11280,39 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 190.5 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.1" ""
+			(at 190.5 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 190.5 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S6.2" ""
+			(at 190.5 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10924,7 +11573,8 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 198.12 60.96 0)
+		(at 188.595 60.96 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10935,7 +11585,7 @@
 		(fields_autoplaced yes)
 		(uuid "8f236485-278e-477e-aef5-1c0490db6d10")
 		(property "Reference" "C8"
-			(at 200.66 59.6899 0)
+			(at 186.055 59.6899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10946,7 +11596,7 @@
 			)
 		)
 		(property "Value" "10nF"
-			(at 200.66 62.2299 0)
+			(at 186.055 62.2299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10957,7 +11607,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 198.12 60.96 0)
+			(at 188.595 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10968,7 +11618,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 60.96 0)
+			(at 188.595 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10979,7 +11629,40 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 198.12 71.12 0)
+			(at 188.595 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.1" ""
+			(at 188.595 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 188.595 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S6.2" ""
+			(at 188.595 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10999,6 +11682,121 @@
 			(project "stm32-am-sdr"
 				(path "/dff3cfde-4775-47a0-871e-26e88704f259/590ef362-0c29-431b-96d7-c0aea18ad095"
 					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 206.375 60.96 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8fe905a6-ab80-487b-a4db-dc331cd5875e")
+		(property "Reference" "C71"
+			(at 209.677 59.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10uF"
+			(at 209.677 62.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 206.375 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 206.375 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 206.375 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.1" ""
+			(at 206.375 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 206.375 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S6.2" ""
+			(at 206.375 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "704ba4c2-53ff-49e5-822c-59d4e14c200f")
+		)
+		(pin "1"
+			(uuid "eb82eefb-9e00-487d-b4db-18570807011e")
+		)
+		(instances
+			(project "stm32-am-sdr"
+				(path "/dff3cfde-4775-47a0-871e-26e88704f259/590ef362-0c29-431b-96d7-c0aea18ad095"
+					(reference "C71")
 					(unit 1)
 				)
 			)
@@ -11306,6 +12104,39 @@
 				)
 			)
 		)
+		(property "KLC_S3.1" ""
+			(at 259.08 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 259.08 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S6.2" ""
+			(at 259.08 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "4f434b0a-1163-4668-b433-5b21a63417b1")
 		)
@@ -11510,7 +12341,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H4.3mm"
 			(at 248.92 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -11521,7 +12352,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3f.pdf"
 			(at 248.92 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -11534,6 +12365,50 @@
 		)
 		(property "Description" "Push button switch, generic, two pins"
 			(at 254 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.1" ""
+			(at 254 66.04 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 254 66.04 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S6.2" ""
+			(at 254 66.04 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "digikey_id" "SW400-ND"
+			(at 254 66.04 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11671,7 +12546,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 358.14 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -11682,7 +12557,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS-22-99-0151/LTST-C190KRKT.pdf"
 			(at 358.14 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -11706,6 +12581,50 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 358.14 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.1" ""
+			(at 358.14 111.76 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 358.14 111.76 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S6.2" ""
+			(at 358.14 111.76 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "digikey_id" "160-1436-2-ND"
+			(at 358.14 111.76 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11786,6 +12705,39 @@
 		)
 		(property "Description" "Resistor, small US symbol"
 			(at 267.97 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.1" ""
+			(at 267.97 58.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 267.97 58.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S6.2" ""
+			(at 267.97 58.42 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11877,6 +12829,39 @@
 				)
 			)
 		)
+		(property "KLC_S3.1" ""
+			(at 198.12 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 198.12 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S6.2" ""
+			(at 198.12 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "7501af76-01de-4859-ba74-0087cf1445f8")
 		)
@@ -11950,6 +12935,39 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 168.91 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.1" ""
+			(at 168.91 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 168.91 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S6.2" ""
+			(at 168.91 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12041,6 +13059,39 @@
 				)
 			)
 		)
+		(property "KLC_S3.1" ""
+			(at 168.91 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 168.91 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S6.2" ""
+			(at 168.91 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "3f24dbfa-19ec-42f9-896c-7a114512e7f9")
 		)
@@ -12114,6 +13165,39 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 163.83 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.1" ""
+			(at 163.83 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 163.83 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S6.2" ""
+			(at 163.83 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12360,6 +13444,39 @@
 				)
 			)
 		)
+		(property "KLC_S3.1" ""
+			(at 161.29 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 161.29 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S6.2" ""
+			(at 161.29 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "945d1f26-4ef5-4099-874d-f60509efe97e")
 		)
@@ -12408,7 +13525,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical"
 			(at 318.77 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -12431,6 +13548,39 @@
 			)
 		)
 		(property "Description" "Cortex Debug Connector, standard ARM Cortex-M SWD and JTAG interface"
+			(at 318.77 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.1" ""
+			(at 318.77 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 318.77 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S6.2" ""
 			(at 318.77 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -12590,7 +13740,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH-12mm"
 			(at 322.58 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -12601,7 +13751,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3f.pdf"
 			(at 322.58 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -12613,6 +13763,50 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 322.58 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.1" ""
+			(at 322.58 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 322.58 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S6.2" ""
+			(at 322.58 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "digikey_id" "SW411-ND"
 			(at 322.58 127 0)
 			(hide yes)
 			(show_name no)
@@ -12695,6 +13889,39 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 156.21 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.1" ""
+			(at 156.21 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 156.21 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S6.2" ""
+			(at 156.21 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12864,6 +14091,39 @@
 				)
 			)
 		)
+		(property "KLC_S3.1" ""
+			(at 261.62 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 261.62 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S6.2" ""
+			(at 261.62 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "576f997a-d785-445c-a716-70bb725d7465")
 		)
@@ -12912,7 +14172,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x16_P2.54mm_Vertical"
 			(at 64.77 229.87 0)
 			(hide yes)
 			(show_name no)
@@ -12935,6 +14195,39 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x16, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 64.77 229.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.1" ""
+			(at 64.77 229.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 64.77 229.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S6.2" ""
 			(at 64.77 229.87 0)
 			(hide yes)
 			(show_name no)
