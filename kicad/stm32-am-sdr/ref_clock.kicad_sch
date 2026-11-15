@@ -2621,7 +2621,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 191.77 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -2665,7 +2665,7 @@
 				)
 			)
 		)
-		(property "digikey_id" ""
+		(property "digikey_id" "311-1779-1-ND"
 			(at 191.77 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -3217,7 +3217,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 166.37 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -3261,7 +3261,7 @@
 				)
 			)
 		)
-		(property "digikey_id" ""
+		(property "digikey_id" "311-1785-1-ND"
 			(at 166.37 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -3432,7 +3432,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 217.17 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -3476,7 +3476,7 @@
 				)
 			)
 		)
-		(property "digikey_id" ""
+		(property "digikey_id" "311-1779-1-ND"
 			(at 217.17 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -3803,7 +3803,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 186.69 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -3847,7 +3847,7 @@
 				)
 			)
 		)
-		(property "digikey_id" ""
+		(property "digikey_id" "311-1785-1-ND"
 			(at 186.69 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -3972,7 +3972,7 @@
 				)
 			)
 		)
-		(property "digikey_id" "336-2399-5-ND"
+		(property "digikey_id" "336-5445-ND"
 			(at 138.43 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -4400,7 +4400,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 212.09 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -4444,7 +4444,7 @@
 				)
 			)
 		)
-		(property "digikey_id" ""
+		(property "digikey_id" "311-1785-1-ND"
 			(at 212.09 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -4928,7 +4928,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 171.45 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -4972,7 +4972,7 @@
 				)
 			)
 		)
-		(property "digikey_id" ""
+		(property "digikey_id" "311-1779-1-ND"
 			(at 171.45 124.46 0)
 			(hide yes)
 			(show_name no)

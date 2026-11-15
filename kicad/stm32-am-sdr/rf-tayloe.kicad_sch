@@ -5183,7 +5183,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 335.28 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -5239,6 +5239,17 @@
 			)
 		)
 		(property "KLC_S6.2" ""
+			(at 335.28 128.27 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "digikey_id" "490-GCM1885C1H182GA16DCT-ND"
 			(at 335.28 128.27 90)
 			(hide yes)
 			(show_name no)
@@ -5376,7 +5387,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 218.44 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -5432,6 +5443,17 @@
 			)
 		)
 		(property "KLC_S6.2" ""
+			(at 218.44 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "digikey_id" "490-GRM3195C2A823GA01DCT-ND"
 			(at 218.44 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -5613,7 +5635,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 330.2 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -5669,6 +5691,17 @@
 			)
 		)
 		(property "KLC_S6.2" ""
+			(at 330.2 62.23 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "digikey_id" "311-3351-1-ND"
 			(at 330.2 62.23 90)
 			(hide yes)
 			(show_name no)
@@ -5884,7 +5917,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 279.4 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -5940,6 +5973,17 @@
 			)
 		)
 		(property "KLC_S6.2" ""
+			(at 279.4 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "digikey_id" "13-CC0805KFX7R6BB106CT-ND"
 			(at 279.4 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -6435,7 +6479,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 218.44 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -6491,6 +6535,17 @@
 			)
 		)
 		(property "KLC_S6.2" ""
+			(at 218.44 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "digikey_id" "490-GRM3195C2A823GA01DCT-ND"
 			(at 218.44 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -7145,7 +7200,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 356.87 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -7201,6 +7256,17 @@
 			)
 		)
 		(property "KLC_S6.2" ""
+			(at 356.87 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "digikey_id" "311-3916-1-ND"
 			(at 356.87 187.96 90)
 			(hide yes)
 			(show_name no)
@@ -7741,7 +7807,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 133.35 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -7807,6 +7873,17 @@
 				)
 			)
 		)
+		(property "digikey_id" "13-CC0805KFX7R6BB106CT-ND"
+			(at 133.35 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "299b73b6-9a32-4396-83f6-144e6fef05a1")
 		)
@@ -7856,7 +7933,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 274.32 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -7912,6 +7989,17 @@
 			)
 		)
 		(property "KLC_S6.2" ""
+			(at 274.32 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "digikey_id" "311-1779-1-ND"
 			(at 274.32 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -8239,7 +8327,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 139.7 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -8295,6 +8383,17 @@
 			)
 		)
 		(property "KLC_S6.2" ""
+			(at 139.7 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "digikey_id" "311-3936-1-ND"
 			(at 139.7 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -8588,7 +8687,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 182.88 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -8644,6 +8743,17 @@
 			)
 		)
 		(property "KLC_S6.2" ""
+			(at 182.88 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "digikey_id" "490-GRM3195C2A823GA01DCT-ND"
 			(at 182.88 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -8896,7 +9006,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 335.28 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -8962,6 +9072,17 @@
 				)
 			)
 		)
+		(property "digikey_id" "490-GCM1885C1H182GA16DCT-ND"
+			(at 335.28 167.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "fc3398ba-c3a7-4ffe-b20b-0f65e1c1a958")
 		)
@@ -9009,7 +9130,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 186.69 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -9075,6 +9196,17 @@
 				)
 			)
 		)
+		(property "digikey_id" "311-1779-1-ND"
+			(at 186.69 62.23 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "27e83515-a731-493d-8e68-fd8897a4c705")
 		)
@@ -9124,7 +9256,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 182.88 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -9180,6 +9312,17 @@
 			)
 		)
 		(property "KLC_S6.2" ""
+			(at 182.88 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "digikey_id" "490-GRM3195C2A823GA01DCT-ND"
 			(at 182.88 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -9637,7 +9780,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 240.03 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -9693,6 +9836,17 @@
 			)
 		)
 		(property "KLC_S6.2" ""
+			(at 240.03 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "digikey_id" "311-1779-1-ND"
 			(at 240.03 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -9864,7 +10018,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 127 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -9930,6 +10084,17 @@
 				)
 			)
 		)
+		(property "digikey_id" "311-3923-1-ND"
+			(at 127 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c76c2911-0a43-4c37-b3e7-f22c1b74bee9")
 		)
@@ -9979,7 +10144,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 128.27 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -10035,6 +10200,17 @@
 			)
 		)
 		(property "KLC_S6.2" ""
+			(at 128.27 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "digikey_id" "311-1779-1-ND"
 			(at 128.27 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -10708,7 +10884,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 114.3 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -10764,6 +10940,17 @@
 			)
 		)
 		(property "KLC_S6.2" ""
+			(at 114.3 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "digikey_id" "311-3936-1-ND"
 			(at 114.3 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -11363,7 +11550,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 356.87 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -11419,6 +11606,17 @@
 			)
 		)
 		(property "KLC_S6.2" ""
+			(at 356.87 148.59 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "digikey_id" "311-3916-1-ND"
 			(at 356.87 148.59 90)
 			(hide yes)
 			(show_name no)

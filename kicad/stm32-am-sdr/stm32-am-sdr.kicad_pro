@@ -599,6 +599,12 @@
         },
         {
           "group_by": false,
+          "label": "Qty",
+          "name": "${QUANTITY}",
+          "show": true
+        },
+        {
+          "group_by": false,
           "label": "Designator",
           "name": "Reference",
           "show": true
@@ -614,18 +620,6 @@
           "label": "JLCPCB PART #",
           "name": "JLCPCB PART #",
           "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Qty",
-          "name": "${QUANTITY}",
-          "show": true
-        },
-        {
-          "group_by": true,
-          "label": "DNP",
-          "name": "${DNP}",
-          "show": true
         },
         {
           "group_by": true,
@@ -653,12 +647,6 @@
         },
         {
           "group_by": false,
-          "label": "Datasheet",
-          "name": "Datasheet",
-          "show": true
-        },
-        {
-          "group_by": false,
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
@@ -673,6 +661,12 @@
           "group_by": true,
           "label": "digikey_id",
           "name": "digikey_id",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Datasheet",
+          "name": "Datasheet",
           "show": true
         },
         {
@@ -722,6 +716,12 @@
           "label": "KLC_S6.2",
           "name": "KLC_S6.2",
           "show": false
+        },
+        {
+          "group_by": true,
+          "label": "DNP",
+          "name": "${DNP}",
+          "show": true
         }
       ],
       "filter_string": "",
@@ -729,7 +729,7 @@
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": false,
-      "sort_field": "digikey_id"
+      "sort_field": "Sim.Pins"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
