@@ -9565,7 +9565,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "ESD131-B1-W0201"
+		(property "Value" "SLESD8D5V0C"
 			(at 90.17 59.182 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9576,7 +9576,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:Infineon_SG-WLL-2-3_0.58x0.28_P0.36mm"
+		(property "Footprint" "Diode_SMD:D_0402_1005Metric"
 			(at 91.44 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -9587,7 +9587,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-ESD131-B1-W0201-DataSheet-v02_00-EN.pdf?fileId=5546d4625cc9456a015ce94850964889"
+		(property "Datasheet" ""
 			(at 91.44 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -9642,7 +9642,7 @@
 				)
 			)
 		)
-		(property "digikey_id" "ESD131B1W0201E6327XTSA1TR-ND"
+		(property "digikey_id" "5399-SLESD8D5V0CCT-ND"
 			(at 91.44 68.58 90)
 			(hide yes)
 			(show_name no)
