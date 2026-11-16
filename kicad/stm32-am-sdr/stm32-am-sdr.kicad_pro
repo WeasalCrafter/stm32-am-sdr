@@ -563,7 +563,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "/home/logan/Documents/projects/stm32-am-sdr/kicad/out/",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""
